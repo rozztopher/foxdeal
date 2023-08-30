@@ -1,0 +1,29 @@
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+
+$colors: (
+    cta: #44B3FA,
+    font-black: #1D1D1B,
+    soft-blue: rgba(68, 179, 250, 0.07),
+    mbc: #D41257,
+    coal: #332f2e,
+    peach:#ff8c65,
+    soft-yellow: #FCE5A7,
+    disabled: #A1A3A7,
+
+);
+
+$transition: .2s;
+
+.cta {
+    background: color(cta);
+}
+
+.mbc {
+    background: color(mbc);
+}
+
+.green {
+    background: #20BC42;
+}

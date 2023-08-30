@@ -1,0 +1,133 @@
+.cta-blue-button {
+    background: color(cta);
+    box-shadow: 0px 10px 30px rgba(42, 129, 185, 0.2);
+    border-radius: $radius-button;
+    height: $height-button;
+    width: $widh-button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-size: 0.8em;
+}
+
+.cta-green-button {
+    background: #20BC42;
+    box-shadow: 0px 10px 30px rgba(42, 129, 185, 0.2);
+    border-radius: $radius-button;
+    height: $height-button;
+    width: $widh-button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-size: 0.8em;
+}
+
+.cta-red-button {
+    background: color(mbc);
+    box-shadow: 0px 10px 30px rgba(42, 129, 185, 0.2);
+    border-radius: $radius-button;
+    height: $height-button;
+    width: $widh-button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-size: 0.8em;
+}
+
+.soft-blue-button {
+    background: color(soft-blue);
+    border-radius: $radius-button;
+    height: $height-button;
+    width: $widh-button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: color(cta);
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.outline-button {
+    border: 2px solid #E6E8EC;
+    height: $height-button;
+    width: $widh-button;
+    border-radius: $radius-button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+}
+
+.button-disabled {
+    background-color: color(disabled);
+    height: $height-button;
+    width: $widh-button;
+    border-radius: $radius-button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+}
+
+.wide-button {
+    width: 12vw;
+}
+
+.fill-button {
+    width: 100%;
+}
+
+.card-1 {
+    width: fit-content;
+    border-radius: 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.18) 100%);
+    box-shadow: 0px 14px 140px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    transition: $transition;
+}
+
+.card-1:hover{
+    background-color: white;
+    transition: $transition;
+}
+
+.divider {
+    position: relative;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: #E6E8EC;
+    border-radius: 2px;
+    width: 2px;
+    height: 28px;
+}
+
+.horizontal-divider {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: rgba(119, 126, 144, 0.12);
+}
+
+.vertical-divider {
+    position: relative;
+    height: 100%;
+    width: 1px;
+    background: rgba(119, 126, 144, 0.12);
+}

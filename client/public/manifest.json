@@ -1,0 +1,15 @@
+{
+  "short_name": "FD",
+  "name": "FoxDeal",
+  "icons": [
+    {
+      "src": "/icons/fox.png",
+      "sizes": "160x160",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
